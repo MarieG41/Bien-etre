@@ -4,3 +4,325 @@
     --30-percent: #246F7A;
     --le-reste: #37A6B6;
 }
+nav{
+    padding: 11px 0 11px 0;
+    background-color: var(--30-percent);
+    height: 150px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-left: 170.5px;
+}
+.nav-bar img{
+    padding: 10px;
+}
+.nav-links{
+    display: flex;
+    margin-left: 356px;
+    padding: 29px 39px 29px 75px;
+    
+}
+.nav-links p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 25px;
+}
+.accueil{
+    background: #2C8B99;
+}
+.polygon{
+    position: absolute;
+    top: 500px;
+    z-index: 1;
+}
+.home{
+    display: flex;
+}
+.home img{
+    padding: 40px 20px 40px 280px;
+    z-index: 5;
+}
+.texte{
+    padding: 10px 0;
+    margin-left: 190.5px;
+}
+.texte h1{
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.texte p{
+    width: 523px;
+    height: 126px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+button{
+    display: flex;
+    align-items: center;
+    padding: 8px 17px;
+    border-radius: 17px;
+    border: none;
+    background: #37A6B6;
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+button span{
+    padding-left: 8px;
+}
+.a-propos{
+    height: 425px;
+}
+.home-div{
+    margin-top: 17.5px;
+    margin-left: 191px;
+    padding: 10px 25px;
+}
+.home-div h2{
+    height: 68px;
+    margin-bottom: 26.5px;
+    color: var(--type-color);
+    font-family: Imprima;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home-div p{
+    width: 700px;
+    height: 230px;
+    color: var(--type-color);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.a-propos img{
+    position: absolute;
+    top: 800px;
+    left: 800px
+}
+.intervention h2{
+    padding-top: 95px;
+    padding-left: 180px;
+    height: 129px;
+    color: #246F7A;
+    font-family: Philosopher;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.card{
+    margin-right: 110px;
+}
+.domaines-interventions{
+    margin-left: 164px;
+    display: flex;
+    padding-left: 174.5px;
+    padding-bottom: 68px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    background: #2C8B99;
+    width: 277px;
+    height: 112px;
+}
+.card-title h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+.card-content{
+    width: 225px;
+    height: 180px;
+    padding: 20px 32px 30px 20px;
+    background-color: var(--30-percent);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-content p{
+    margin-bottom: 20px;
+    width: 225px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 141%;
+    text-transform: capitalize;
+}
+.card-content button{
+    margin-top: 10px;
+}
+.duo button{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.gommage button{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.visage button{
+    margin-top: 30px;
+}
+.enfant button{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.row2{
+    margin-bottom: 74px;
+}
+.tarifs{
+    height: 569px;
+    background: #2C8B99;
+    display: flex;
+}
+.massage-classique{
+    padding: 13.5px 90.5px 61.5px 24.5px;
+    margin-left: 208px;
+}
+.massage-classique h2{
+    margin-top: 110px;
+    width: 510px;
+    height: 68px;
+    margin-bottom: 26.5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Imprima;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.massage-classique p{
+    width: 700px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.massage-classique button{
+    margin-top: 60px;
+}
+.tarifs img{
+    width: 507px;
+    height: 515px;
+    border-radius: 0px 35px 0px 33px;
+    margin: 27px 195px 0 27px;
+}
+.contact{
+    width: 1728px;
+    height: 791px;
+}
+.contact-infos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 145px;
+    margin-top: 84px;
+}
+.contact-infos h2{
+    height: 85px;
+    color: #246F7A;
+    font-family: Philosopher;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.contact-infos h3{
+    height: 69px;
+    color: #246F7A;
+    font-family: ABeeZee;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-infos p{
+    height: 93px;
+    color: #246F7A;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-input{
+    display: grid;
+    grid-template-columns: 280px 280px;
+    margin-left: 145px;
+    width: 661px;
+    align-items: center;
+    align-content: center;
+    gap: 50px 24px;
+    flex-wrap: wrap;
+}
+.contact-input input, .contact-input textarea{
+    border-radius: 17px;
+    background: #37A6B6;
+    border: none;
+    padding: 10px 0 10px 26px;
+}
+.contact-input ::placeholder{
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.55;
+}
+.contact-us button{
+    margin-top: 50px;
+    margin-left: 145px;
+}
+.contact-img{
+    position: absolute;
+    top: 3100px;
+    left: 900px;
+}
+footer{
+    height: 315px;
+    background-color: var(--30-percent);
+}
