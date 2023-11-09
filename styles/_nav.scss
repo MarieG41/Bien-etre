@@ -1,0 +1,41 @@
+nav{padding: 11px 0 11px 0;
+    background-color: #246F7A;
+    height: 150px;
+    
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        margin-left: 170.5px;
+        
+            img{padding: 10px;}
+            
+            .nav-links{
+                display: flex;
+                margin-left: 356px;
+                padding: 29px 39px 29px 75px;
+                
+                 p{
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-right: 25px;
+                }
+            }
+    }
+
+    
+}
+
+@media screen and (max-width: 480px){
+    .nav-bar{
+        margin-left: 100px;
+
+        .nav-links{
+            display: none;
+        }
+    }
+}
+

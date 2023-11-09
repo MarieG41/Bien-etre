@@ -1,0 +1,48 @@
+.accueil{
+    background: #2C8B99;
+        .home{
+            display: flex;
+            
+            .texte{
+            padding: 10px 0;
+            margin-left: 190.5px;
+            h1{
+                margin-top: 100px;
+                color: #FFF;
+                font-family: Philosopher;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 24px;
+            }
+                
+            }
+
+            img{
+                padding: 40px 20px 40px 280px;
+                z-index: 5;
+            }
+        }
+    .polygon{
+        position: absolute;
+        top: 500px;
+        z-index: 0;
+    }
+}
+
+
+
+
+
+p{
+    width: 523px;
+    height: 126px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24px;
+}

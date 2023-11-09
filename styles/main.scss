@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'nav';
+@import 'accueil';
+
+:root{
+    --type-color: #1B5058;
+    --background: #2C8B99;
+    --30-percent: #246F7A;
+    --le-reste: #37A6B6;
+}
+
+body{
+    overflow-x: hidden;
+}
