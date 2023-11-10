@@ -6,20 +6,31 @@
             .texte{
             padding: 10px 0;
             margin-left: 190.5px;
-            h1{
-                margin-top: 100px;
-                color: #FFF;
-                font-family: Philosopher;
-                font-size: 64px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                margin-bottom: 24px;
-            }
-                
+            
+                .texte-title{
+                    margin-top: 100px;
+                    color: #FFF;
+                    font-family: Philosopher;
+                    font-size: 64px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 24px;
+                }
+                .texte-paragraph{
+                    width: 523px;
+                    height: 126px;
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 24px;
+                }    
             }
 
-            img{
+            .img-accueil{
                 padding: 40px 20px 40px 280px;
                 z-index: 5;
             }
@@ -31,18 +42,26 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    .texte{
+        margin-left: 50px;
+        text-align: center;
 
+        .texte-title{
+            margin-top: 10px;
+            font-size: 40px;
+        }
 
-
-
-p{
-    width: 523px;
-    height: 126px;
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 24px;
+        .texte-paragraph{
+            font-size: 20px;
+            width: 300px;
+        }
+    }
+    .polygon{
+        display: none;
+    }
 }
+
+
+
+

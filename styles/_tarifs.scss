@@ -1,0 +1,53 @@
+.tarifs{
+    height: 569px;
+    background: #2C8B99;
+    display: flex;
+
+    .massage-classique{
+        padding: 13.5px 90.5px 61.5px 24.5px;
+        margin-left: 208px;
+
+        .massage-classique-title{
+            margin-top: 110px;
+            width: 510px;
+            height: 68px;
+            margin-bottom: 26.5px;
+            color: #FFF;
+            text-align: center;
+            font-family: Imprima;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        .massage-classique-text{
+            width: 700px;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .massage-classique .cta{
+            margin-top: 60px;
+        }
+    }
+    
+    .tarifs-img{
+        width: 507px;
+        height: 515px;
+        border-radius: 0px 35px 0px 33px;
+        margin: 27px 195px 0 27px;
+    }
+}
+@media screen and (max-width: 480px){
+    .tarifs{
+        display: none;
+    }
+}

@@ -1,0 +1,124 @@
+.intervention-title{
+    padding-top: 95px;
+    padding-left: 180px;
+    height: 129px;
+    color: #246F7A;
+    font-family: Philosopher;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.domaines-interventions{
+    margin-left: 164px;
+    display: flex;
+    padding-left: 174.5px;
+    padding-bottom: 68px;
+
+        .card{
+            margin-right: 110px;
+
+            .card-title{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px 20px 0px 0px;
+                background: #2C8B99;
+                width: 277px;
+                height: 112px;
+            }
+                .card-title-h3{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                    text-transform: uppercase;
+                }
+                
+            .card-content{
+                width: 225px;
+                height: 180px;
+                padding: 20px 32px 30px 20px;
+                background-color: var(--30-percent);
+                border-radius: 0 0 20px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .card-content-text{
+                    margin-bottom: 20px;
+                    width: 225px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 141%;
+                    text-transform: capitalize;
+                }
+            
+                .card-content .cta{
+                    margin-top: 10px;
+                }
+            }
+            
+            .duo .cta{
+                margin-top: 50px;
+                margin-left: 15px;
+            }
+            .gommage .cta{
+                margin-top: 90px;
+                margin-left: 20px;
+            }
+        }
+}
+.row2{
+    margin-bottom: 74px;
+
+    .visage .cta{
+        margin-top: 30px;
+    }
+    .enfant .cta{
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .intervention-title{
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-top: 20px;
+        font-size: 24px;
+        margin-bottom: 20px;
+        height: 50px;
+    }
+
+    .domaines-interventions{
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 60px;
+        padding-top: 20px;
+        padding-bottom: 0;
+
+        .card{
+            margin-right: 0;
+
+            .card-content{
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .row2-img{
+        margin-top: 10px;
+        width: 275px;
+    }
+}

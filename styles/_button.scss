@@ -1,0 +1,30 @@
+.cta{
+    display: flex;
+    align-items: center;
+    padding: 8px 17px;
+    border-radius: 17px;
+    border: none;
+    background-color: var(--le-reste);
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 5;
+}
+.material-symbols-outlined{
+    padding-left: 8px;
+}
+.cta:hover{
+    background-color: var(--30-percent);
+}
+
+@media screen and (max-width: 480px){
+    button{
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+}

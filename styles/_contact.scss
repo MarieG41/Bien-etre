@@ -1,0 +1,109 @@
+.contact{
+    width: 1728px;
+    height: 791px;
+
+    .contact-infos{
+        display: flex;
+        flex-direction: column;
+        margin-left: 145px;
+        margin-top: 84px;
+
+        .contact-infos-h2{
+            height: 85px;
+            color: #246F7A;
+            font-family: Philosopher;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-decoration-line: underline;
+        }
+        .contact-infos-h3{
+            height: 69px;
+            color: #246F7A;
+            font-family: ABeeZee;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .contact-infos-text{
+            height: 93px;
+            color: #246F7A;
+            font-family: ABeeZee;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .contact-input{
+        display: grid;
+        grid-template-columns: 280px 280px;
+        margin-left: 145px;
+        width: 661px;
+        align-items: center;
+        align-content: center;
+        gap: 50px 24px;
+        flex-wrap: wrap;
+
+        .contact-inputs, .contact-textarea{
+            border-radius: 17px;
+            background: #37A6B6;
+            border: none;
+            padding: 10px 0 10px 26px;
+        }
+    }
+    .contact-input ::placeholder{
+        color: #FFF;
+        font-family: ABeeZee;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        opacity: 0.55;
+    }
+    .contact-btn .cta{
+        margin-top: 50px;
+        margin-left: 145px;
+    }
+    .contact-img{
+        position: absolute;
+        top: 3100px;
+        left: 900px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .contact{
+        width: 528px;
+
+        .contact-infos{
+            margin-right: 140px;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .contact-input{
+            margin-left: 50px;
+            grid-template-columns: 280px;
+            width: 300px;
+            gap: 20px 10px;
+        }
+
+        .contact-btn{
+            margin-left: 130px;
+            margin-right: 130px;
+
+            .contact-btn .cta{
+                margin-left: 0;
+            }
+        }
+
+        .contact-img{
+            display: none;
+        }
+    }
+}

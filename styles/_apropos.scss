@@ -1,0 +1,58 @@
+.a-propos{
+    height: 425px;
+
+    .home-div{
+        margin-top: 17.5px;
+        margin-left: 191px;
+        padding: 10px 25px;
+
+        .home-title{
+            height: 68px;
+            margin-bottom: 26.5px;
+            color: var(--type-color);
+            font-family: Imprima;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .home-text{
+            width: 700px;
+            height: 230px;
+            color: var(--type-color);
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .home-img{
+        position: absolute;
+        top: 800px;
+        left: 800px
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home-img{
+        display: none;
+    }
+    .home-div{
+        margin-left: 0;
+        text-align: center;
+        padding: 0 50px;
+    }
+    .home-title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .home-text{
+        font-size: 16px;
+        width: 300px;
+    }
+    .home-img{
+        display: none;
+    }
+}
